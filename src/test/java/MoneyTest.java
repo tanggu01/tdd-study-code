@@ -11,3 +11,15 @@ public class MoneyTest {
         assertEquals(10, five.amount);
     }
 }
+
+class Dollar {
+    int amount;
+
+    Dollar(int amount) {
+
+    }
+
+    void times(int multiplier) {
+
+    }
+}
