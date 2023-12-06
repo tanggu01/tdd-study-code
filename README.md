@@ -12,5 +12,5 @@
 - [ ] Equal object
 - [x] **5CHF \* 2 = 10CHF**
 - [ ] Dollar/Franc duplication
-- [ ] common `equals`
+- [x] common `equals`
 - [ ] common `times`
