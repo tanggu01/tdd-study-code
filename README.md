@@ -14,3 +14,4 @@
 - [ ] Dollar/Franc duplication
 - [x] common `equals`
 - [ ] common `times`
+- [ ] comparing `Franc` and `Dollar`
