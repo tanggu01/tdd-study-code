@@ -16,3 +16,4 @@
 - [ ] common `times`
 - [x] comparing `Franc` and `Dollar`
 - [ ] currency?
+- [ ] Should I remove `testFrancMultiplication`?

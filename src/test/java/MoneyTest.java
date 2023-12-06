@@ -13,18 +13,18 @@ public class MoneyTest {
 
     @Test
     public void testFrancMultiplication() {
-        Franc five = new Franc(5);
-        assertEquals(new Franc(10), five.times(2));
-        assertEquals(new Franc(15), five.times(3));
+        Money five = Money.franc(5);
+        assertEquals(Money.franc(10), five.times(2));
+        assertEquals(Money.franc(15), five.times(3));
     }
 
     @Test
     public void testEquality() {
         assertTrue(Money.dollar(5).equals(Money.dollar(5)));
         assertFalse(Money.dollar(6).equals(Money.dollar(5)));
-        assertTrue(new Franc(5).equals(new Franc(5)));
-        assertFalse(new Franc(6).equals(new Franc(5)));
-        assertFalse(new Franc(5).equals(Money.dollar(5)));
+        assertTrue(Money.franc(5).equals(Money.franc(5)));
+        assertFalse(Money.franc(6).equals(Money.franc(5)));
+        assertFalse(Money.franc(5).equals(Money.dollar(5)));
     }
 }
 
@@ -36,6 +36,10 @@ abstract class Money {
     public static Money dollar(int amount) {
         return new Dollar(amount);
     }
+    public static Money franc(int amount) {
+        return new Franc(amount);
+    }
+
 
     public boolean equals(Object object) {
         Money money = (Money) object;
