@@ -25,7 +25,11 @@ public class MoneyTest {
     }
 }
 
-class Dollar {
+class Money {
+
+}
+
+class Dollar extends Money {
     private int amount;
 
     Dollar(int amount) {
