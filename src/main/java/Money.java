@@ -8,6 +8,11 @@ abstract class Money {
 
     abstract Money times(int multiplier);
 
+    Money(int amount, String currency) {
+        this.amount = amount;
+        this.currency = currency;
+    }
+
     public static Money dollar(int amount) {
         return new Dollar(amount, "USD");
     }
