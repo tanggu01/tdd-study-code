@@ -13,7 +13,7 @@
 - [x] **5CHF \* 2 = 10CHF**
 - [ ] Dollar/Franc duplication
 - [x] common `equals`
-- [ ] common `times`
+- [x] common `times`
 - [x] comparing `Franc` and `Dollar`
 - [x] **currency?**
 - [ ] Should I remove `testFrancMultiplication`?
