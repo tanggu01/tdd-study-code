@@ -15,5 +15,5 @@
 - [x] common `equals`
 - [ ] common `times`
 - [x] comparing `Franc` and `Dollar`
-- [ ] currency?
+- [ ] **currency?**
 - [ ] Should I remove `testFrancMultiplication`?
