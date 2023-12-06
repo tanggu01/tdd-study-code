@@ -28,4 +28,8 @@ class Money {
         return amount == money.amount
                 && getClass().equals(money.getClass());
     }
+
+    public String toString() {
+        return amount + " " + currency;
+    }
 }
