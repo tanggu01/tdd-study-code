@@ -10,4 +10,7 @@
 - [ ] `hashCode()`
 - [ ] Equal null
 - [ ] Equal object
-- [ ] **5CHF \* 2 = 10CHF**
+- [x] **5CHF \* 2 = 10CHF**
+- [ ] Dollar/Franc duplication
+- [ ] common `equals`
+- [ ] common `times`
