@@ -1,4 +1,4 @@
-abstract class Money {
+class Money {
     protected int amount;
     protected String currency;
 
@@ -6,7 +6,9 @@ abstract class Money {
         return currency;
     }
 
-    abstract Money times(int multiplier);
+    Money times(int amount) {
+        return null;
+    };
 
     Money(int amount, String currency) {
         this.amount = amount;
