@@ -26,11 +26,10 @@ public class MoneyTest {
 }
 
 class Money {
-
+    protected int amount;
 }
 
 class Dollar extends Money {
-    private int amount;
 
     Dollar(int amount) {
         this.amount = amount;
