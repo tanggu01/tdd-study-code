@@ -28,8 +28,10 @@ public class MoneyTest {
     }
 }
 
-class Money {
+abstract class Money {
     protected int amount;
+
+    abstract Money times(int multiplier);
 
     public static Dollar dollar(int amount) {
         return new Dollar(amount);
