@@ -27,6 +27,10 @@ public class MoneyTest {
 
 class Money {
     protected int amount;
+    public boolean equals(Object object) {
+        Money money = (Money) object;
+        return amount == money.amount;
+    }
 }
 
 class Dollar extends Money {
@@ -39,10 +43,6 @@ class Dollar extends Money {
         return new Dollar(amount * multiplier);
     }
 
-    public boolean equals(Object object) {
-        Money dollar = (Money) object;
-        return amount == dollar.amount;
-    }
 }
 
 class Franc {
