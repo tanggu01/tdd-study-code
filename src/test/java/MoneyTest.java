@@ -1,7 +1,5 @@
 import org.junit.jupiter.api.Test;
 
-import java.beans.Expression;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class MoneyTest {
