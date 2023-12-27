@@ -11,9 +11,9 @@
 - [ ] Equal null
 - [ ] Equal object
 - [x] **5CHF \* 2 = 10CHF**
-- [ ] **Dollar/Franc duplication**
+- [x] Dollar/Franc duplication
 - [x] common `equals`
 - [x] common `times`
 - [x] comparing `Franc` and `Dollar`
 - [x] **currency?**
-- [ ] Should I remove `testFrancMultiplication`?
+- [x] Should I remove `testFrancMultiplication`?
