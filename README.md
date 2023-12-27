@@ -2,9 +2,10 @@
 
 ## New TODOs (Chap 12 onwards)
 - [ ] $5 + 10CHF = $10 (assuming the exchange rate is 2:1)
-- [ ] **$5 + $5 = $10**
+- [ ] $5 + $5 = $10
 - [ ] Return Money from $5 + $5
 - [x] ~~Bank.reduce(Money)~~
+- [x] **`reduce()` that performs currency conversion on Money**
 
 ## TODOs
 - [ ] $5 + 10CHF = $10 (assuming the exchange rate is 2:1)
