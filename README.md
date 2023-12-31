@@ -6,7 +6,7 @@
 - [ ] Return Money from $5 + $5
 - [x] ~~Bank.reduce(Money)~~
 - [x] ~~`reduce()` that performs currency conversion on Money~~
-- [ ] Sum.plus
+- [ ] **Sum.plus**
 - [ ] Expression.times
 
 ## TODOs
