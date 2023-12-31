@@ -1,5 +1,14 @@
 # tdd-study-code
 
+## New TODOs (Chap 12 onwards)
+- [x] ~~**$5 + 10CHF = $10 (assuming the exchange rate is 2:1)**~~
+- [ ] ~~$5 + $5 = $10~~
+- [ ] **Return Money from $5 + $5**
+- [x] ~~Bank.reduce(Money)~~
+- [x] ~~`reduce()` that performs currency conversion on Money~~
+- [ ] ~~Sum.plus~~
+- [ ] ~~Expression.times~~
+
 ## TODOs
 - [ ] $5 + 10CHF = $10 (assuming the exchange rate is 2:1)
 - [x] $5 \* 2 = $10
@@ -10,4 +19,10 @@
 - [ ] `hashCode()`
 - [ ] Equal null
 - [ ] Equal object
-- [ ] **5CHF \* 2 = 10CHF**
+- [x] **5CHF \* 2 = 10CHF**
+- [x] Dollar/Franc duplication
+- [x] common `equals`
+- [x] common `times`
+- [x] comparing `Franc` and `Dollar`
+- [x] **currency?**
+- [x] Should I remove `testFrancMultiplication`?
